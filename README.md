@@ -10,5 +10,5 @@ while i <= len(a) - 1:
         break
     i += 1
 
-if not found:
+if not found
     print("There is no number greater than 7.")

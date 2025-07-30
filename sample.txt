@@ -12,3 +12,4 @@ if (current_month, current_day) < (birth_month, birth_day):
 print("Surname:", surname)
 print("Name:", name)
 print("Age:", age)
+ 

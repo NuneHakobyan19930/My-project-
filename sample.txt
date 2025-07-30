@@ -1,2 +1,14 @@
-Hello, this is a sample file.
-Updating...
+name = "Nune"
+surname = "Gyul-Hakobyan"
+birth_year = 1993
+birth_month = 12
+birth_day = 28
+current_year = 2025
+current_month = 5
+current_day = 7
+age = current_year - birth_year
+if (current_month, current_day) < (birth_month, birth_day):
+    age -= 1
+print("Surname:", surname)
+print("Name:", name)
+print("Age:", age)
